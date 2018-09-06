@@ -1,0 +1,1 @@
+define([],function(){return function(){return"768px"==$("#wrapper").css("min-width")}});

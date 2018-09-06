@@ -1,0 +1,1 @@
+define(["purl"],function(){var e=$.url().param("partner_id");if(e){var r=$.param({partner_id:e,time:(new Date).getTime()}),a="https://my.alfaforex.com/site/set-partner?"+r;$("<img />").attr("src",a).appendTo("body").hide()}});

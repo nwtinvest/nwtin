@@ -1,0 +1,1 @@
+define(["tabs","payments","tradeview"],function(a,e,p){p.apply(),a.apply("#paymentsTabs",{tablet:{dropDown:!0},mobile:{swipePanels:!0,clickTabs:!1}}),e.apply("#paymentsTable"),e.apply("#paymentsTable2")});

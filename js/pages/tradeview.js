@@ -1,0 +1,1 @@
+define(["tradeview"],function(e){e.apply()});

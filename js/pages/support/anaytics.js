@@ -1,0 +1,1 @@
+define(["tabs","tradeview","toggle-elements"],function(e,a){a.apply(),e.apply("#documentsTabs",{tablet:{dropDown:!0},mobile:{swipePanels:!0,clickTabs:!1}})});

@@ -1,0 +1,1 @@
+define([],function(){function n(){return"280px"==e.css("min-width")}function r(){return"768px"==e.css("min-width")}function t(){return!n()&&!r()}function i(n){return n.scrollTop()}var e=$("#wrapper");return{isMobile:n,isTablet:r,isDesktop:t,getScrollTop:i}});

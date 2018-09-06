@@ -1,0 +1,1 @@
+define(["tools","tabs","toggle-elements"],function(e,l){e.apply("#tools",5),l.apply("#overviewsTabs",{tablet:{dropDown:!0},mobile:{swipePanels:!0,clickTabs:!1}}),l.apply("#overviewsTabsObserve",{tablet:{dropDown:!0},mobile:{swipePanels:!0,clickTabs:!1}}),l.apply("#overviewsTabsDJ",{tablet:{dropDown:!0},mobile:{swipePanels:!0,clickTabs:!1}})});

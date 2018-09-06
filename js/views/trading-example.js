@@ -1,0 +1,1 @@
+define(["helpers"],function(e){return{apply:function(t,a){var n=this;a||$(document).on("platformChanged",function(){n.apply(t,!0)});var s=$(t);s.length&&(a||s.data("sections",$(".sub-section",s)),e.isTablet()||e.isMobile()?s.data("sections").eq(0).before(s.data("sections").eq(1)):s.data("sections").eq(0).after(s.data("sections").eq(1)))}}});

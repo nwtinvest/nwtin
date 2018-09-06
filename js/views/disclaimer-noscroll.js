@@ -1,0 +1,1 @@
+define([],function(){return{apply:function(e){var n,o=$(e);o.onWheel=function(e){e=e||window.event;var t=e.deltaY||e.detail||e.wheelDelta;n=o.offset().top-2,t>0&&$(document.body).scrollTop()+$(window).height()+t>=n&&(e.preventDefault(),$(document.body).scrollTop(n-$(window).height()))},document.body.addEventListener("wheel",o.onWheel)}}});

@@ -1,0 +1,1 @@
+define([],function(){function e(){$(".online-event__item ").each(function(){var e=$(this),i=e.find("img");i.width()<e.width()?e.addClass("online-event__vertical-image"):e.removeClass("online-event__vertical-image")})}e(),$(window).resize(function(){e()})});

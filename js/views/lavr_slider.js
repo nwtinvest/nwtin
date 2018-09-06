@@ -1,0 +1,1 @@
+define([],function(){$(".range").on("input change",function(){var n=$(".lavrs_slider input").val(),i=$(".lavrs_slider").find(".lavrs");i.css("left","-"+n*(i.width()-$(".range").width())/100+"px")})});
